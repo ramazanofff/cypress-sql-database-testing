@@ -1,4 +1,4 @@
-# cypress-sql-database-testing
+#  Database testing with Cypress + Azure SQL Database
 
 - creating new tables in database
 - inserting data into database
