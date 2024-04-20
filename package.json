@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "cypress": "^13.8.0",
+    "cypress-sql-server": "^1.0.0"
+  }
+}
