@@ -90,7 +90,6 @@ describe("Test databases using SQL", () => {
 
     it('Join two tables', () => {
         cy.sqlServer('SELECT AGENT_NAME, CUST_NAME, BENEFIT_PERCENT, SPECIAL_CODE, CUST_CODE FROM Agents INNER JOIN Customers ON Agents.AGENT_CODE=Customers.AGENT_CODE').then((joinedTable) => {
-            console.log(joinedTable)
             expect(joinedTable).to.have.length(26)
             expect(joinedTable[0][0]).to.equal('Ramasundar')
             expect(joinedTable[0][1]).to.equal('Assel')

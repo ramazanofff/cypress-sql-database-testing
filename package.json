@@ -5,5 +5,14 @@
   "devDependencies": {
     "cypress": "^13.8.0",
     "cypress-sql-server": "^1.0.0"
-  }
+  },
+  "name": "cypress-sql-database-testing",
+  "description": "- creating new tables in database\r - inserting data into database\r - retrieving data from database\r - updating data in database\r - using data from database to fill web forms\r - joining two tables\r - deleting data from database\r - dropping tables",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "recordTest": "npx cypress run --record --key 459b68f9-b69e-4f3d-8acb-5dae6c537925"
+  },
+  "author": "",
+  "license": "ISC"
 }
