@@ -10,7 +10,5 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20.x'
-      with: 
-        spec: cypress/e2e/test.cy.js
     - run: npm install
-    - run: npm run recordTest
+    - run: npm run --spec 'cypress/e2e/test.cy.js' --record --key 459b68f9-b69e-4f3d-8acb-5dae6c537925
