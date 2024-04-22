@@ -11,4 +11,4 @@ jobs:
       with:
         node-version: '20.x'
     - run: npm install
-    - run: npx cypress run --record --key 459b68f9-b69e-4f3d-8acb-5dae6c537925 --spec "cypress/e2e/test.cy.js"
+    - run: npx cypress run --record --key 459b68f9-b69e-4f3d-8acb-5dae6c537925"
